@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0dc5855-4528-4fbf-bf94-9ffb87a67bcf" name="Changes" comment="jwt+security(未完成)" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e439ffd4-1e27-4ea9-a015-0bed613c742f" />
+        <option name="url" value="https://github.com/aliencindy/ttest.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NJS4LWqD44lKIoDOkLoUM6k7iM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/chrissy/IntelliJProject/ttest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "e88a254ce4248cca0a7a84eb59727474",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redshift",
+      "sqlserver"
+    ]
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TtestApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoDatajpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demoDATAJPA" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoDatajpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-mall" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chrissy.springbootmall.SpringbootMallApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ttest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ttest.TtestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0dc5855-4528-4fbf-bf94-9ffb87a67bcf" name="Changes" comment="" />
+      <created>1679380500769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679380500769</updated>
+      <workItem from="1679380501923" duration="3000" />
+      <workItem from="1679380526426" duration="43000" />
+      <workItem from="1679380591151" duration="1147000" />
+      <workItem from="1679402717783" duration="2463000" />
+      <workItem from="1679450030255" duration="16658000" />
+      <workItem from="1679495854961" duration="3938000" />
+      <workItem from="1679535406637" duration="7461000" />
+      <workItem from="1679563261530" duration="254000" />
+      <workItem from="1679708447219" duration="560000" />
+      <workItem from="1679709018291" duration="8577000" />
+      <workItem from="1679748986449" duration="80000" />
+      <workItem from="1680012981738" duration="1662000" />
+      <workItem from="1680021065469" duration="336000" />
+      <workItem from="1680053873539" duration="13000" />
+      <workItem from="1680283175007" duration="1091000" />
+    </task>
+    <task id="LOCAL-00001" summary="API取得資料庫資料">
+      <created>1679450526245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679450526245</updated>
+    </task>
+    <task id="LOCAL-00002" summary="API取得資料庫資料(小修改)">
+      <created>1679451849377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679451849377</updated>
+    </task>
+    <task id="LOCAL-00003" summary="JWT">
+      <created>1679498625317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679498625317</updated>
+    </task>
+    <task id="LOCAL-00004" summary="JWT">
+      <created>1679499710662</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679499710662</updated>
+    </task>
+    <task id="LOCAL-00005" summary="從jdbc改成jpa">
+      <created>1679540741930</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679540741930</updated>
+    </task>
+    <task id="LOCAL-00006" summary="移除多的檔案">
+      <created>1679541056024</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679541056024</updated>
+    </task>
+    <task id="LOCAL-00007" summary="小修改-repository繼承JpaRepository(取代CrudRepository)">
+      <created>1679563449351</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679563449351</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修復">
+      <created>1679709670543</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679709670543</updated>
+    </task>
+    <task id="LOCAL-00009" summary="jwt+security(未完成)">
+      <created>1680283439223</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680283439223</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="API取得資料庫資料" />
+    <MESSAGE value="API取得資料庫資料(小修改)" />
+    <MESSAGE value="JWT" />
+    <MESSAGE value="從jdbc改成jpa" />
+    <MESSAGE value="移除多的檔案" />
+    <MESSAGE value="小修改-repository繼承JpaRepository(取代CrudRepository)" />
+    <MESSAGE value="修復" />
+    <MESSAGE value="jwt+security(未完成)" />
+    <option name="LAST_COMMIT_MESSAGE" value="jwt+security(未完成)" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.example.ttest.User" memberName="Username" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
