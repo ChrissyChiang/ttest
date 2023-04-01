@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0dc5855-4528-4fbf-bf94-9ffb87a67bcf" name="Changes" comment="jwt+security(未完成)" />
+    <list default="true" id="b0dc5855-4528-4fbf-bf94-9ffb87a67bcf" name="Changes" comment="jwt+security(未完成)">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/config/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/model/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/dao/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/dao/UserRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/dao/UserRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/service/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/service/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/service/SpringUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/service/SpringUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ttest/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ttest/dao/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/dao/UserRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/model/SpringUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ttest/service/UserService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,8 +86,10 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/chrissy/IntelliJProject/ttest",
+    "import_schema_mapping": "<schema-mapping>\n  <databases>\n    <list>\n      <schema-mapping-item>\n        <source-data-source-id>e785f80a-ccb1-43a4-8848-42ccdd6b60aa</source-data-source-id>\n        <source-path>database/&quot;C21&quot;/schema/&quot;dbo&quot;</source-path>\n        <target-data-source-id>e785f80a-ccb1-43a4-8848-42ccdd6b60aa</target-data-source-id>\n        <target-path>database/&quot;C21&quot;/schema/&quot;dbo&quot;</target-path>\n      </schema-mapping-item>\n    </list>\n  </databases>\n</schema-mapping>",
+    "last_opened_file_path": "C:/chrissy/IntelliJProject/geo_kgo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,6 +97,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "e88a254ce4248cca0a7a84eb59727474",
     "vue.rearranger.settings.migration": "true"
   },
@@ -84,6 +108,12 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.ttest.config" />
+      <recent name="com.example.ttest.model" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -148,6 +178,8 @@
       <workItem from="1680021065469" duration="336000" />
       <workItem from="1680053873539" duration="13000" />
       <workItem from="1680283175007" duration="1091000" />
+      <workItem from="1680284277204" duration="151000" />
+      <workItem from="1680331495673" duration="24371000" />
     </task>
     <task id="LOCAL-00001" summary="API取得資料庫資料">
       <created>1679450526245</created>
@@ -236,6 +268,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="API取得資料庫資料" />
     <MESSAGE value="API取得資料庫資料(小修改)" />
     <MESSAGE value="JWT" />
@@ -247,10 +282,24 @@
     <option name="LAST_COMMIT_MESSAGE" value="jwt+security(未完成)" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ttest/config/SecurityConfig.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="com.example.ttest.User" memberName="Username" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="http.filters.get(0).order" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
