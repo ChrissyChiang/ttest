@@ -1,38 +1,26 @@
 package com.example.ttest.controller;
 
-import com.example.ttest.model.UserLoginRequest;
+import com.example.ttest.entity.UserEntity;
 import com.example.ttest.service.UserService;
-import com.example.ttest.config.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 @RestController
-@RequestMapping("/api/auth")
+@RequestMapping("/api/user")
 public class UserController {
     @Autowired
     private UserService userService;
-    @Autowired
-    private JwtUtils jwtUtils;
 
-    @PostMapping("/login")
-
-    public String login(@RequestBody UserLoginRequest userLoginRequest) {
-        String token = userService.login(userLoginRequest);
-
-        return token;
+    @GetMapping("/users")
+    @PreAuthorize("hasAuthority('ADMIN')")
+//    @PreAuthorize("hasAnyAuthority('A', 'M')")
+    public List<UserEntity> allUsers() {
+        List<UserEntity> userList = userService.getAll();
+        return userList;
     }
-
-    @GetMapping("/auth")
-    public String getAuth(@RequestHeader("Authorization") String tokenHeader) {
-
-//        String token = tokenHeader.substring(7);// 刪除 "Bearer " 前綴
-        String token = tokenHeader;
-        if (jwtUtils.validateToken(token)) {
-            String userName = jwtUtils.getUserNameFromToken(token);
-            return "Hello, " + userName;
-        } else {
-            throw new RuntimeException("Invalid token");
-        }
-    }
-
 }

@@ -1,12 +1,12 @@
-package com.example.ttest.dao;
+package com.example.ttest.repository;
 
-import com.example.ttest.model.UserEntity;
+import com.example.ttest.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
+@Repository
 public interface UserRepository extends JpaRepository<UserEntity, Integer> {
-
-
     Optional<UserEntity> findByUserName(String userName);
 }

@@ -1,6 +1,6 @@
 package com.example.ttest.service;
 
-import com.example.ttest.model.UserEntity;
+import com.example.ttest.entity.UserEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -8,8 +8,6 @@ import java.util.Collection;
 
 public class CustomUserDetails implements UserDetails {
 
-    private String userPassword;
-    private String userName;
     private UserEntity user;
     private Collection<? extends GrantedAuthority> authorities;
 
@@ -17,14 +15,6 @@ public class CustomUserDetails implements UserDetails {
         this.user = user;
         this.authorities = authorities;
     }
-
-    //先寫死的版本
-//    public CustomUserDetails(String userName,String userPassword, Collection<? extends GrantedAuthority> authorities) {
-//        this.userName = userName;
-//        this.userPassword = userPassword;
-//        this.authorities = authorities;
-//    }
-
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
