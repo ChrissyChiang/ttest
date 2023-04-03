@@ -16896,7 +16896,7 @@
     </schema>
     <schema id="5577" parent="5510" name="dbo">
       <Current>1</Current>
-      <IntrospectionTimestamp>2023-04-02.22:54:08.040</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-04-04.01:45:38.693</IntrospectionTimestamp>
       <ObjectId>1</ObjectId>
     </schema>
     <schema id="5578" parent="5510" name="guest">
@@ -16911,9 +16911,9 @@
       <ObjectId>1301579675</ObjectId>
     </table>
     <table id="5581" parent="5577" name="users">
-      <CreatedTimestamp>2023-03-21.23:31:22.437</CreatedTimestamp>
-      <ModifiedTimestamp>2023-04-02.02:34:17.923</ModifiedTimestamp>
-      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2023-04-04.01:32:00.427</CreatedTimestamp>
+      <ModifiedTimestamp>2023-04-04.01:45:37.893</ModifiedTimestamp>
+      <ObjectId>1557580587</ObjectId>
     </table>
     <column id="5582" parent="5580" name="id">
       <DasType>int|0s</DasType>
@@ -16948,9 +16948,11 @@
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
+      <SequenceIdentity>1(9)</SequenceIdentity>
     </column>
     <column id="5588" parent="5581" name="name">
       <DasType>varchar(30 char)|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
     <column id="5589" parent="5581" name="user_password">
@@ -16961,20 +16963,20 @@
       <DasType>varchar(30 char)|0s</DasType>
       <Position>4</Position>
     </column>
-    <index id="5591" parent="5581" name="PK__users__3213E83F3F528A0B">
+    <index id="5591" parent="5581" name="PK__users__3213E83F5209231B">
       <Clustering>1</Clustering>
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Position>1</Position>
       <Unique>1</Unique>
     </index>
-    <key id="5592" parent="5581" name="PK__users__3213E83F3F528A0B">
-      <CreatedTimestamp>2023-03-21.23:31:22.437</CreatedTimestamp>
-      <ModifiedTimestamp>2023-03-21.23:31:22.437</ModifiedTimestamp>
+    <key id="5592" parent="5581" name="PK__users__3213E83F5209231B">
+      <CreatedTimestamp>2023-04-04.01:32:00.427</CreatedTimestamp>
+      <ModifiedTimestamp>2023-04-04.01:32:00.427</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>917578307</ObjectId>
+      <ObjectId>1573580644</ObjectId>
       <Primary>1</Primary>
-      <UnderlyingIndexName>PK__users__3213E83F3F528A0B</UnderlyingIndexName>
+      <UnderlyingIndexName>PK__users__3213E83F5209231B</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

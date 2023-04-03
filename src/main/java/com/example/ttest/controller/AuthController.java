@@ -22,7 +22,7 @@ public class AuthController {
     @PostMapping("/generate")
 
     public String generateToken(@RequestBody UserLoginRequest userLoginRequest) {
-        String token = userService.login(userLoginRequest);
+        String token = userService.generate(userLoginRequest);
 
         return token;
     }//generateToken

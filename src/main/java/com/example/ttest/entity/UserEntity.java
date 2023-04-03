@@ -1,8 +1,7 @@
 package com.example.ttest.entity;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import javax.persistence.*;
 
 @Entity
 @Table(name = "users")
@@ -10,11 +9,13 @@ public class UserEntity {
 
     @Id
     @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(name = "name")
     private String userName;
 
+    @JsonIgnore
     @Column(name = "user_password")
     private String userPassword;
 

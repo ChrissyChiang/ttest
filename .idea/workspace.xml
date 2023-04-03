@@ -4,37 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0dc5855-4528-4fbf-bf94-9ffb87a67bcf" name="Changes" comment="jwt+security(未完成_1)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/entity/PermissionEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/enums/AuthorityEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/exception/ApiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/exception/CustomExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/exception/ErrorResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/repository/PermissionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/service/AuthenticationService.java" afterDir="false" />
+    <list default="true" id="b0dc5855-4528-4fbf-bf94-9ffb87a67bcf" name="Changes" comment="jwt+security">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/controller/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e785f80a-ccb1-43a4-8848-42ccdd6b60aa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e785f80a-ccb1-43a4-8848-42ccdd6b60aa.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e785f80a-ccb1-43a4-8848-42ccdd6b60aa/storage_v2/_src_/database/C21.wgEBAA/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e785f80a-ccb1-43a4-8848-42ccdd6b60aa/storage_v2/_src_/database/C21.wgEBAA/schema/dbo.sYMBAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/TtestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/TtestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/config/AuthenticationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/controller/AuthController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/model/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/service/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/service/CustomUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/service/SpringUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/model/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/model/UserLoginRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ttest/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ttest/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/TtestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ttest/TtestApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/config/SecurityConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ttest/config/SecurityConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/config/SecurityConfig$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ttest/config/SecurityConfig$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ttest/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ttest/controller/AuthController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ttest/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/dao/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/model/UserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/service/CustomUserDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ttest/service/CustomUserDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/service/SpringUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ttest/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/model/UserLoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ttest/model/UserLoginRequest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/ttest/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ttest/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +87,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "import_schema_mapping": "<schema-mapping>\n  <databases>\n    <list>\n      <schema-mapping-item>\n        <source-data-source-id>e785f80a-ccb1-43a4-8848-42ccdd6b60aa</source-data-source-id>\n        <source-path>database/&quot;C21&quot;/schema/&quot;dbo&quot;</source-path>\n        <target-data-source-id>e785f80a-ccb1-43a4-8848-42ccdd6b60aa</target-data-source-id>\n        <target-path>database/&quot;C21&quot;/schema/&quot;dbo&quot;</target-path>\n      </schema-mapping-item>\n    </list>\n  </databases>\n</schema-mapping>",
-    "last_opened_file_path": "C:/chrissy/IntelliJProject/Check-ins",
+    "last_opened_file_path": "C:/chrissy/IntelliJProject/geo_kgo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,7 +95,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "database.data.views",
     "spring.configuration.checksum": "e88a254ce4248cca0a7a84eb59727474",
     "vue.rearranger.settings.migration": "true"
   },
@@ -197,7 +180,9 @@
       <workItem from="1680283175007" duration="1091000" />
       <workItem from="1680284277204" duration="151000" />
       <workItem from="1680331495673" duration="24909000" />
-      <workItem from="1680406047015" duration="34331000" />
+      <workItem from="1680406047015" duration="34760000" />
+      <workItem from="1680501889904" duration="11560000" />
+      <workItem from="1680519187026" duration="3637000" />
     </task>
     <task id="LOCAL-00001" summary="API取得資料庫資料">
       <created>1679450526245</created>
@@ -269,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680367434784</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="jwt+security">
+      <created>1680454202141</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680454202141</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +297,8 @@
     <MESSAGE value="修復" />
     <MESSAGE value="jwt+security(未完成)" />
     <MESSAGE value="jwt+security(未完成_1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="jwt+security(未完成_1)" />
+    <MESSAGE value="jwt+security" />
+    <option name="LAST_COMMIT_MESSAGE" value="jwt+security" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
